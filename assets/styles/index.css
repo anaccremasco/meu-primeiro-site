@@ -9,5 +9,8 @@ h2, p {
 }
 
 header {
-    background-color: rgb(133, 171, 241); 
+    background-color: rgb(31, 54, 97); 
+    color: rgb(251, 251, 252);
+    font-style: oblique;
+    padding: 40px;
 }
