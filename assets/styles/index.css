@@ -1,11 +1,18 @@
 /* Reset do CSS */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 *{
     margin: 0px;
     padding: 0;
+    box-sizing: border-box;
 }
 
-h2, p {
-    text-align: center;
+/*Configurações Gerais*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   font-family: "Lora"
 }
 
 header {
@@ -13,4 +20,31 @@ header {
     color: rgb(251, 251, 252);
     font-style: oblique;
     padding: 40px;
+    text-align: center;
 }
+
+main {
+    background-color: #e4eeff;
+    flex: 1;
+    padding: 48px 38px;
+    width: 100%;
+}
+
+about-selection {
+    display: block;
+    background-color:#bac6db;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+#titulo-sobre-mim {
+    font-size: 25px;
+    border-bottom: 2px solid rgb(31, 54, 97)
+}
+
+.texto-sobre-mim {
+    font-size: 20px;
+}
+
