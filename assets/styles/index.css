@@ -136,3 +136,40 @@ footer {
 footer p {
     font-size: 1rem;
 }
+
+footer a {
+    color: rgb(164, 187, 231);
+}
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 768px) {
+    header, main, footer {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .about-section,
+    .hobbies,
+    .contact {
+      width: 95%;
+      padding: 20px;
+    }
+  
+    ul {
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+  
+    li {
+      min-width: unset;
+      width: 90%;
+    }
+  
+    .contact a {
+      display: block;
+      margin: 10px auto;
+      width: fit-content;
+    }
+  }
+  
